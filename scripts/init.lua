@@ -461,6 +461,18 @@ function mod:init()
 	BodyColor      = {121,109,135},--metal mid
 	BodyHighlight  = {188,183,187},--metal light
 	}
+	modApi:addPalette{--34
+	ID = "Nico_v1",
+	Name = "Machine Blue",
+	PlateHighlight = {243,189,27},--lights
+	PlateLight     = {102,136,194},--main highlight
+	PlateMid       = {58,82,129},--main light
+	PlateDark      = {49,71,114},--main mid
+	PlateOutline   = {0,0,0},--main dark
+	PlateShadow    = {16,16,16},--metal dark
+	BodyColor      = {39,39,39},--metal mid
+	BodyHighlight  = {64,64,64},--metal light
+	}
 end
 
 function mod:load(options, version)
