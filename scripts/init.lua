@@ -8,7 +8,6 @@ local mod = {
 
 function mod:init()
 	modApi:addPalette{--1
-		image="advanced/units/player/prime_firefighter_ns.png",
 		ID = "Nico_chili",
 		Name = "Spicy Red",
 		PlateHighlight = {255,199,54},--lights
@@ -22,7 +21,6 @@ function mod:init()
 	}
 	modApi:addPalette{--2
 		ID = "Nico_alpha_chili",
-		image="units/player/mech_ignite_ns.png",
 		Name = "Flame Blue & Orange",
 		PlateHighlight = {255,199,54},--lights
 		PlateLight     = {255,163,53},--main highlight
@@ -34,7 +32,6 @@ function mod:init()
 		BodyHighlight  = {110,207,226},--metal light
 	}
 	modApi:addPalette{--3
-		image="units/player/mech_flame_ns.png",
 		ID = "Nico_boss_chili",
 		Name = "Red HellFire",
 		PlateHighlight = {197,255,255},--lights
@@ -47,7 +44,6 @@ function mod:init()
 		BodyHighlight  = {249,81,81},--metal light
 	}
 	modApi:addPalette{--4
-		image="units/player/mech_pulse_ns.png",
 		ID = "Nico_puffer",
 		Name = "Fungal Purple",
 		PlateHighlight = {255,199,54},--lights
@@ -60,7 +56,6 @@ function mod:init()
 		BodyHighlight  = {155,135,133},--metal light
 	}
 	modApi:addPalette{--5
-		image="units/player/mech_wall_ns.png",
 		ID = "Nico_alpha_puffer",
 		Name = "Cyan Mycelium",
 		PlateHighlight = {255,199,54},--lights
@@ -73,7 +68,6 @@ function mod:init()
 		BodyHighlight  = {122,113,135},--metal light
 	}
 	modApi:addPalette{--6
-		image="advanced/units/player/brute_pierce_ns.png",
 		ID = "Nico_chomper",
 		Name = "Gluttonous Green",
 		PlateHighlight = {255,199,54},--lights
@@ -86,7 +80,6 @@ function mod:init()
 		BodyHighlight  = {177,221,108},--metal light
 	}
 	modApi:addPalette{--7
-		image="advanced/units/player/brute_rocketcrab_ns.png",
 		ID = "Nico_alpha_chomper",
 		Name = "Deep Blue Stomach",
 		PlateHighlight = {255,199,54},--lights
@@ -99,7 +92,6 @@ function mod:init()
 		BodyHighlight  = {110,207,226},--metal light
 	}
 	modApi:addPalette{--8
-		image="advanced/units/player/prime_tinyhead.png",
 		ID = "Nico_boss_chomper",
 		Name = "Endless Crimson Hunger",
 		PlateHighlight = {51,170,245},--lights
@@ -112,7 +104,126 @@ function mod:init()
 		BodyHighlight  = {243,255,134},--metal light
 	}
 	modApi:addPalette{--9
-		image="units/player/mech_leap_ns.png",
+		ID = "Nico_beanstalker",
+		Name = "Bloomed Beanstalker",
+		PlateHighlight = {255,199,54},--lights
+		PlateLight     = {255,164,189},--main highlight
+		PlateMid       = {213,83,138},--main light
+		PlateDark      = {149,41,82},--main mid
+		PlateOutline   = {34,36,34},--main dark
+		PlateShadow    = {38,34,42},--metal dark
+		BodyColor      = {49,74,54},--metal mid
+		BodyHighlight  = {76,130,79},--metal light
+	}
+	modApi:addPalette{--10
+		ID = "Nico_bud",
+		Name = "Green & Brown Bud",
+		PlateHighlight = {255,199,54},--lights
+		PlateLight     = {177,211,108},--main highlight
+		PlateMid       = {76,130,79},--main light
+		PlateDark      = {49,74,54},--main mid
+		PlateOutline   = {23,22,24},--main dark
+		PlateShadow    = {38,34,42},--metal dark
+		BodyColor      = {96,74,74},--metal mid
+		BodyHighlight  = {159,120,89},--metal light
+	}
+	modApi:addPalette{--11
+		ID = "Nico_alpha_bud",
+		Name = "Blue & Brown Bud",
+		PlateHighlight = {174,33,255},--lights
+		PlateLight     = {0,181,214},--main highlight
+		PlateMid       = {0,139,246},--main light
+		PlateDark      = {76,86,134},--main mid
+		PlateOutline   = {27,35,25},--main dark
+		PlateShadow    = {38,34,42},--metal dark
+		BodyColor      = {96,74,74},--metal mid
+		BodyHighlight  = {159,120,89},--metal light
+	}
+	modApi:addPalette{--12
+		ID = "Nico_boss_bud",
+		Name = "Orange & Brown Bud",
+		PlateHighlight = {51,170,245},--lights
+		PlateLight     = {246,110,0},--main highlight
+		PlateMid       = {214,76,0},--main light
+		PlateDark      = {143,63,74},--main mid
+		PlateOutline   = {25,30,36},--main dark
+		PlateShadow    = {38,34,42},--metal dark
+		BodyColor      = {96,74,74},--metal mid
+		BodyHighlight  = {159,120,89},--metal light
+	}
+	modApi:addPalette{--13
+		ID = "Nico_iceflower",
+		Name = "Winter IceFlower",
+		PlateHighlight = {233,161,172},--lights
+		PlateLight     = {189,220,255},--main highlight
+		PlateMid       = {146,182,207},--main light
+		PlateDark      = {91,107,158},--main mid
+		PlateOutline   = {32,54,55},--main dark
+		PlateShadow    = {60,91,117},--metal dark
+		BodyColor      = {104,116,193},--metal mid
+		BodyHighlight  = {219,255,242},--metal light
+	}
+	modApi:addPalette{--14
+		ID = "Nico_sunflower",
+		Name = "Sunny SunFlower",
+		PlateHighlight = {255,199,54},--lights
+		PlateLight     = {226,186,46},--main highlight
+		PlateMid       = {210,151,36},--main light
+		PlateDark      = {118,82,30},--main mid
+		PlateOutline   = {27,35,25},--main dark
+		PlateShadow    = {49,74,54},--metal dark
+		BodyColor      = {76,130,79},--metal mid
+		BodyHighlight  = {177,211,108},--metal light
+	}
+	modApi:addPalette{--15
+		ID = "Nico_alpha_sunflower",
+		Name = "Blue Alpha Sunflower",
+		PlateHighlight = {243,255,134},--lights
+		PlateLight     = {0,181,214},--main highlight
+		PlateMid       = {0,139,246},--main light
+		PlateDark      = {49,50,76},--main mid
+		PlateOutline   = {25,30,36},--main dark
+		PlateShadow    = {49,50,76},--metal dark
+		BodyColor      = {76,86,134},--metal mid
+		BodyHighlight  = {110,207,226},--metal light
+	}
+	modApi:addPalette{--10
+		ID = "Nico_tree",
+		Name = "Brown & Green DeadWood",
+		PlateHighlight = {255,199,54},--lights
+		PlateLight     = {137,95,94},--main highlight
+		PlateMid       = {81,56,63},--main light
+		PlateDark      = {47,33,43},--main mid
+		PlateOutline   = {16,11,16},--main dark
+		PlateShadow    = {49,74,54},--metal dark
+		BodyColor      = {76,130,79},--metal mid
+		BodyHighlight  = {177,211,108},--metal light
+	}
+	modApi:addPalette{--10
+		ID = "Nico_alpha_tree",
+		Name = "Indigo & Blue DeadWood",
+		PlateHighlight = {243,255,134},--lights
+		PlateLight     = {117,99,144},--main highlight
+		PlateMid       = {62,59,85},--main light
+		PlateDark      = {35,40,49},--main mid
+		PlateOutline   = {12,15,17},--main dark
+		PlateShadow    = {49,50,76},--metal dark
+		BodyColor      = {76,86,134},--metal mid
+		BodyHighlight  = {110,207,226},--metal light
+	}
+	modApi:addPalette{--10
+		ID = "Nico_boss_tree",
+		Name = "Sequoia Red & Brown",
+		PlateHighlight = {255,201,55},--lights
+		PlateLight     = {249,140,81},--main highlight
+		PlateMid       = {147,63,69},--main light
+		PlateDark      = {27,35,25},--main mid
+		PlateOutline   = {0,0,0},--main dark
+		PlateShadow    = {41,35,41},--metal dark
+		BodyColor      = {93,77,86},--metal mid
+		BodyHighlight  = {150,98,104},--metal light
+	}
+	modApi:addPalette{--9
 		ID = "Nico_vol_Bot",
 		Name = "Boom Bot",
 		PlateHighlight = {255,233,231},--lights
@@ -125,7 +236,6 @@ function mod:init()
 		BodyHighlight  = {137,137,162},--metal light
 	}
 	modApi:addPalette{--10
-		image="advanced/units/player/ranged_acidnoid_ns.png",
 		ID = "Nico_zombie",
 		Name = "Undead Arachnid",
 		PlateHighlight = {255,73,73},--lights
@@ -139,7 +249,6 @@ function mod:init()
 	}
 	modApi:addPalette{--11
 		ID = "Nico_sick",
-		image="units/player/mech_nano_ns.png",
 		Name = "Sick Green",
 		PlateHighlight = {193,233,214},
 		PlateLight     = {155,163,124},
@@ -151,7 +260,6 @@ function mod:init()
 		BodyHighlight  = {217,222,154},
 	}
 	modApi:addPalette{--12
-		image="units/player/mech_mirror_ns.png",
 		ID = "Nico_blast",
 		Name = "Blast Orange & Creme",
 		PlateHighlight = {255,249,242},--lights
@@ -164,7 +272,6 @@ function mod:init()
 		BodyHighlight  = {252,209,209},--metal light
 	}
 	modApi:addPalette{--12
-		image="units/player/mech_judo_ns.png",
 		ID = "Nico_shell",
 		Name = "Shell Indigo & White",
 		PlateHighlight = {255,197,86},--lights
@@ -177,7 +284,6 @@ function mod:init()
 		BodyHighlight  = {196,202,223},--metal light
 	}
 	modApi:addPalette{--13
-		image="units/player/mech_laser_ns.png",
 		ID = "Nico_blood",
 		Name = "Red Blood & White",
 		PlateHighlight = {255,197,86},--lights
@@ -190,7 +296,6 @@ function mod:init()
 		BodyHighlight  = {210,121,121},--metal light
 	}
 	modApi:addPalette{--14
-		image="units/player/mech_dstrike_ns.png",
 		ID = "Nico_health",
 		Name = "Healthy Green & White",
 		PlateHighlight = {255,197,86},--lights
@@ -203,7 +308,6 @@ function mod:init()
 		BodyHighlight  = {174,255,83},--metal light
 	}
 	modApi:addPalette{--15
-		image="units/player/mech_grav_ns.png",
 		ID = "Nico_hive",
 		Name = "Tyrant Yellow & Black",
 		PlateHighlight = {239,232,255},--lights
@@ -216,7 +320,6 @@ function mod:init()
 		BodyHighlight  = {226,199,203},--metal light
 	}
 	modApi:addPalette{--16
-		image="advanced/units/player/brute_bulk_ns.png",
 		ID = "Nico_wrath",
 		Name = "Wrathful Black & White",
 		PlateHighlight = {249,124,124},--lights
@@ -229,7 +332,6 @@ function mod:init()
 		BodyHighlight  = {255,251,235},--metal light
 	}
 	modApi:addPalette{--17
-		image="advanced/units/player/temporary/science_pointy.png",
 		ID = "Nico_fire",
 		Name = "Firefighter Red & Blue",
 		PlateHighlight = {250,249,81},--lights
@@ -242,7 +344,6 @@ function mod:init()
 		BodyHighlight  = {179,223,246},--metal light
 	}
 	modApi:addPalette{--18
-		image="advanced/units/player/science_socket_ns.png",
 		ID = "Nico_spider",
 		Name = "Arachnid Sky Blue & Purple",
 		PlateHighlight = {250,242,255},--lights
@@ -255,7 +356,6 @@ function mod:init()
 		BodyHighlight  = {249,220,255},--metal light
 	}
 	modApi:addPalette{--19
-		image="advanced/units/player/ranged_scorpio_ns.png",
 		ID = "Nico_boss",
 		Name = "Pink & Yellow Leader",
 		PlateHighlight = {255,249,242},--lights
@@ -268,7 +368,6 @@ function mod:init()
 		BodyHighlight  = {255,246,220},--metal light
 	}
 	modApi:addPalette{--20
-		image="units/player/mech_charge_ns.png",
 		ID = "Nico_sonic",
 		Name = "Blue Blur & Knuckles",
 		PlateHighlight = {255,239,221},--lights
@@ -281,7 +380,6 @@ function mod:init()
 		BodyHighlight  = {251,189,189},--metal light
 	}
 	modApi:addPalette{--21
-		image="advanced/units/player/brute_needle_ns.png",
 		ID = "Nico_reaction",
 		Name = "Reactive Red & Yellow",
 		PlateHighlight = {255,197,86},--lights
@@ -294,7 +392,6 @@ function mod:init()
 		BodyHighlight  = {244,244,211},--metal light
 	}
 	modApi:addPalette{--22
-		image="units/player/mech_ice_ns.png",
 		ID = "Nico_winter",
 		Name = "Winter White & Light Blue",
 		PlateHighlight = {255,245,101},--lights
@@ -307,7 +404,6 @@ function mod:init()
 		BodyHighlight  = {246,255,255},--metal light
 		}
 	modApi:addPalette{--23
-		image="units/player/mech_electric_ns.png",
 		ID = "Nico_june",
 		Name = "Junebug",
 		PlateHighlight = {255,226,171},--lights
@@ -319,8 +415,7 @@ function mod:init()
 		BodyColor      = {212,161,72},--metal mid
 		BodyHighlight  = {255,246,220},--metal light
 		}
-		modApi:addPalette{--24
-		image="units/player/mech_artillery_ns.png",
+	modApi:addPalette{--24
 		ID = "Nico_ladybug",
 		Name = "Red LadyBug",
 		PlateHighlight = {255,226,171},--lights
@@ -332,34 +427,31 @@ function mod:init()
 		BodyColor      = {183,64,64},--metal mid
 		BodyHighlight  = {199,102,100},--metal light
 		}
-		modApi:addPalette{--25
-			image="advanced/units/player/ranged_minelayer_ns.png",
-			ID = "Nico_alpha_ladybug",
-			Name = "Green Alpha LadyBug",
-			PlateHighlight = {255,197,86},--lights
-			PlateLight     = {139,121,164},--main highlight
-			PlateMid       = {85,88,112},--main light
-			PlateDark      = {36,41,65},--main mid
-			PlateOutline   = {16,15,13},--main dark
-			PlateShadow    = {81,82,26},--metal dark
-			BodyColor      = {181,183,64},--metal mid
-			BodyHighlight  = {195,199,100},--metal light
+	modApi:addPalette{--25
+		ID = "Nico_alpha_ladybug",
+		Name = "Green Alpha LadyBug",
+		PlateHighlight = {255,197,86},--lights
+		PlateLight     = {139,121,164},--main highlight
+		PlateMid       = {85,88,112},--main light
+		PlateDark      = {36,41,65},--main mid
+		PlateOutline   = {16,15,13},--main dark
+		PlateShadow    = {81,82,26},--metal dark
+		BodyColor      = {181,183,64},--metal mid
+		BodyHighlight  = {195,199,100},--metal light
 		}
-		modApi:addPalette{--26
-			image="units/player/mech_rocket_ns.png",
-			ID = "Nico_boss_ladybug",
-			Name = "Pink Leader LadyBug",
-			PlateHighlight = {255,226,171},--lights
-			PlateLight     = {93,121,97},--main highlight
-			PlateMid       = {33,57,45},--main light
-			PlateDark      = {34,36,36},--main mid
-			PlateOutline   = {16,15,13},--main dark
-			PlateShadow    = {56,34,78},--metal dark
-			BodyColor      = {189,53,207},--metal mid
-			BodyHighlight  = {243,94,222},--metal light
+	modApi:addPalette{--26
+		ID = "Nico_boss_ladybug",
+		Name = "Pink Leader LadyBug",
+		PlateHighlight = {255,226,171},--lights
+		PlateLight     = {93,121,97},--main highlight
+		PlateMid       = {33,57,45},--main light
+		PlateDark      = {34,36,36},--main mid
+		PlateOutline   = {16,15,13},--main dark
+		PlateShadow    = {56,34,78},--metal dark
+		BodyColor      = {189,53,207},--metal mid
+		BodyHighlight  = {243,94,222},--metal light
 		}
-		modApi:addPalette{--27
-		image="units/player/mech_jet_ns.png",
+	modApi:addPalette{--27
 		ID = "Nico_nuclear",
 		Name = "Nuclear Green",
 		PlateHighlight = {255,213,65},--lights
@@ -372,106 +464,112 @@ function mod:init()
 		BodyHighlight  = {139,147,175},--metal light
 	}
 	modApi:addPalette{--28
-	image="advanced/units/player/prime_bottlecap_ns.png",
-	ID = "Nico_choco",
-	Name = "Chocolate Colossus",
-	PlateHighlight = {254,243,192},--lights
-	PlateLight     = {199,176,139},--main highlight
-	PlateMid       = {121,103,85},--main light
-	PlateDark      = {66,57,52},--main mid
-	PlateOutline   = {34,28,26},--main dark
-	PlateShadow    = {34,28,26},--metal dark
-	BodyColor      = {66,57,52},--metal mid
-	BodyHighlight  = {121,103,85},--metal light
+		ID = "Nico_choco",
+		Name = "Chocolate Colossus",
+		PlateHighlight = {254,243,192},--lights
+		PlateLight     = {199,176,139},--main highlight
+		PlateMid       = {121,103,85},--main light
+		PlateDark      = {66,57,52},--main mid
+		PlateOutline   = {34,28,26},--main dark
+		PlateShadow    = {34,28,26},--metal dark
+		BodyColor      = {66,57,52},--metal mid
+		BodyHighlight  = {121,103,85},--metal light
 	}
 	modApi:addPalette{--28
-	image="units/player/mech_tank_ns.png",
-	ID = "Nico_lava",
-	Name = "Magmatic Brobdingnagians",
-	PlateHighlight = {255,213,65},--lights
-	PlateLight     = {90,78,68},--main highlight
-	PlateMid       = {66,57,52},--main light
-	PlateDark      = {50,43,40},--main mid
-	PlateOutline   = {34,28,26},--main dark
-	PlateShadow    = {180,32,42},--metal dark
-	BodyColor      = {250,106,10},--metal mid
-	BodyHighlight  = {249,163,27},--metal light
+		ID = "Nico_lava",
+		Name = "Magmatic Brobdingnagians",
+		PlateHighlight = {255,213,65},--lights
+		PlateLight     = {90,78,68},--main highlight
+		PlateMid       = {66,57,52},--main light
+		PlateDark      = {50,43,40},--main mid
+		PlateOutline   = {34,28,26},--main dark
+		PlateShadow    = {180,32,42},--metal dark
+		BodyColor      = {250,106,10},--metal mid
+		BodyHighlight  = {249,163,27},--metal light
 	}
 	modApi:addPalette{--29
-	image="advanced/units/player/ranged_bluegun.png",
-	ID = "Nico_crystal",
-	Name = "Bi or Die",
-	PlateHighlight = {104,174,212},--lights
-	PlateLight     = {255,128,164},--main highlight
-	PlateMid       = {148,33,106},--main light
-	PlateDark      = {67,0,103},--main mid
-	PlateOutline   = {22,23,26},--main dark
-	PlateShadow    = {0,40,89},--metal dark
-	BodyColor      = {35,73,117},--metal mid
-	BodyHighlight  = {0,120,153},--metal light
+		ID = "Nico_crystal",
+		Name = "Bi or Die",
+		PlateHighlight = {104,174,212},--lights
+		PlateLight     = {255,128,164},--main highlight
+		PlateMid       = {148,33,106},--main light
+		PlateDark      = {67,0,103},--main mid
+		PlateOutline   = {22,23,26},--main dark
+		PlateShadow    = {0,40,89},--metal dark
+		BodyColor      = {35,73,117},--metal mid
+		BodyHighlight  = {0,120,153},--metal light
 	}
 	modApi:addPalette{--30
-	image="units/player/mech_science_ns.png",
-	ID = "Nico_p&o",
-	Name = "Amethist and Copper Golem",
-	PlateHighlight = {215,152,255},--lights
-	PlateLight     = {118,96,146},--main highlight
-	PlateMid       = {84,59,114},--main light
-	PlateDark      = {45,22,75},--main mid
-	PlateOutline   = {26,6,50},--main dark
-	PlateShadow    = {90,31,5},--metal dark
-	BodyColor      = {161,78,16},--metal mid
-	BodyHighlight  = {231,165,33},--metal light
+		ID = "Nico_p&o",
+		Name = "Amethist and Copper Golem",
+		PlateHighlight = {215,152,255},--lights
+		PlateLight     = {118,96,146},--main highlight
+		PlateMid       = {84,59,114},--main light
+		PlateDark      = {45,22,75},--main mid
+		PlateOutline   = {26,6,50},--main dark
+		PlateShadow    = {90,31,5},--metal dark
+		BodyColor      = {161,78,16},--metal mid
+		BodyHighlight  = {231,165,33},--metal light
 	}
 	modApi:addPalette{--31
-	image="advanced/units/player/ranged_smoke_ns.png",
-	ID = "Nico_b&w",
-	Name = "Sometimes life is just Black & White",
-	PlateHighlight = {100,100,100},--lights
-	PlateLight     = {40,40,40},--main highlight
-	PlateMid       = {20,20,20},--main light
-	PlateDark      = {0,0,0},--main mid
-	PlateOutline   = {0,0,0},--main dark
-	PlateShadow    = {195,195,195},--metal dark
-	BodyColor      = {200,200,200},--metal mid
-	BodyHighlight  = {255,255,255},--metal light
+		ID = "Nico_b&w",
+		Name = "Sometimes life is just Black & White",
+		PlateHighlight = {100,100,100},--lights
+		PlateLight     = {40,40,40},--main highlight
+		PlateMid       = {20,20,20},--main light
+		PlateDark      = {0,0,0},--main mid
+		PlateOutline   = {0,0,0},--main dark
+		PlateShadow    = {195,195,195},--metal dark
+		BodyColor      = {200,200,200},--metal mid
+		BodyHighlight  = {255,255,255},--metal light
 	}
 	modApi:addPalette{--32
-	image="advanced/units/player/temporary/brute_laserface.png",
-	ID = "Nico_forest",
-	Name = "The Walking Scarlet Forest",
-	PlateHighlight = {253,253,253},--lights
-	PlateLight     = {200,32,64},--main highlight
-	PlateMid       = {157,20,44},--main light
-	PlateDark      = {125,0,98},--main mid
-	PlateOutline   = {9,8,16},--main dark
-	PlateShadow    = {9,8,16},--metal dark
-	BodyColor      = {32,32,64},--metal mid
-	BodyHighlight  = {160,0,128},--metal light
+		ID = "Nico_forest",
+		Name = "The Walking Scarlet Forest",
+		PlateHighlight = {253,253,253},--lights
+		PlateLight     = {200,32,64},--main highlight
+		PlateMid       = {157,20,44},--main light
+		PlateDark      = {125,0,98},--main mid
+		PlateOutline   = {9,8,16},--main dark
+		PlateShadow    = {9,8,16},--metal dark
+		BodyColor      = {32,32,64},--metal mid
+		BodyHighlight  = {160,0,128},--metal light
 	}
 	modApi:addPalette{--33
-	ID = "Nico_inverse",
-	Name = "The Plain Rigids(Negative Rift Walkers)",
-	PlateHighlight = {34,114,115},--lights
-	PlateLight     = {119,129,187},--main highlight
-	PlateMid       = {192,180,205},--main light
-	PlateDark      = {226,215,224},--main mid
-	PlateOutline   = {240,233,239},--main dark
-	PlateShadow    = {221,219,221},--metal dark
-	BodyColor      = {121,109,135},--metal mid
-	BodyHighlight  = {188,183,187},--metal light
+		ID = "Nico_inverse",
+		Name = "The Plain Rigids(Negative Rift Walkers)",
+		PlateHighlight = {34,114,115},--lights
+		PlateLight     = {119,129,187},--main highlight
+		PlateMid       = {192,180,205},--main light
+		PlateDark      = {226,215,224},--main mid
+		PlateOutline   = {240,233,239},--main dark
+		PlateShadow    = {221,219,221},--metal dark
+		BodyColor      = {121,109,135},--metal mid
+		BodyHighlight  = {188,183,187},--metal light
 	}
 	modApi:addPalette{--34
-	ID = "Nico_v1",
-	Name = "Machine Blue",
-	PlateHighlight = {243,189,27},--lights
-	PlateLight     = {102,136,194},--main highlight
-	PlateMid       = {58,82,129},--main light
-	PlateDark      = {49,71,114},--main mid
-	PlateOutline   = {0,0,0},--main dark
-	PlateShadow    = {16,16,16},--metal dark
-	BodyColor      = {39,39,39},--metal mid
-	BodyHighlight  = {64,64,64},--metal light
+		ID = "Nico_v1",
+		Name = "Machine Blue",
+		PlateHighlight = {243,189,27},--lights
+		PlateLight     = {102,136,194},--main highlight
+		PlateMid       = {58,82,129},--main light
+		PlateDark      = {49,71,114},--main mid
+		PlateOutline   = {0,0,0},--main dark
+		PlateShadow    = {16,16,16},--metal dark
+		BodyColor      = {39,39,39},--metal mid
+		BodyHighlight  = {64,64,64},--metal light
+	}
+	modApi:addPalette{--35
+		ID = "Nico_pink",
+		Name = "Pink Candy",
+		PlateHighlight = {255,251,8},--lights
+		PlateLight     = {251,193,184},--main highlight
+		PlateMid       = {136,126,68},--main light
+		PlateDark      = {238,74,99},--main mid
+		PlateOutline   = {158,75,95},--main dark
+		PlateShadow    = {238,74,99},--metal dark
+		BodyColor      = {237,144,137},--metal mid
+		BodyHighlight  = {242,157,182},--metal light
 	}
 end
 
