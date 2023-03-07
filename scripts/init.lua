@@ -392,6 +392,18 @@ function mod:init()
 		BodyHighlight  = {244,244,211},--metal light
 	}
 	modApi:addPalette{--33
+		ID = "Nico_nurse",
+		Name = "Nurse Magenta & Light Pink",
+		PlateHighlight = {250,249,81},--lights
+		PlateLight     = {225,208,212},--main highlight
+		PlateMid       = {142,113,123},--main light
+		PlateDark      = {81,61,76},--main mid
+		PlateOutline   = {32,26,31},--main dark
+		PlateShadow    = {102,55,93},--metal dark
+		BodyColor      = {143,81,120},--metal mid
+		BodyHighlight  = {219,188,204},--metal light
+	}
+	modApi:addPalette{--34
 		ID = "Nico_winter",
 		Name = "Winter White & Light Blue",
 		PlateHighlight = {255,245,101},--lights
@@ -402,8 +414,9 @@ function mod:init()
 		PlateShadow    = {71,163,157},--metal dark
 		BodyColor      = {144,215,219},--metal mid
 		BodyHighlight  = {246,255,255},--metal light
-		}
-	modApi:addPalette{--34
+	}
+
+	modApi:addPalette{--35
 		ID = "Nico_june",
 		Name = "Junebug",
 		PlateHighlight = {255,226,171},--lights
@@ -415,7 +428,7 @@ function mod:init()
 		BodyColor      = {212,161,72},--metal mid
 		BodyHighlight  = {255,246,220},--metal light
 		}
-	modApi:addPalette{--35
+	modApi:addPalette{--36
 		ID = "Nico_ladybug",
 		Name = "Red LadyBug",
 		PlateHighlight = {255,226,171},--lights
@@ -427,7 +440,7 @@ function mod:init()
 		BodyColor      = {183,64,64},--metal mid
 		BodyHighlight  = {199,102,100},--metal light
 		}
-	modApi:addPalette{--36
+	modApi:addPalette{--37
 		ID = "Nico_alpha_ladybug",
 		Name = "Green Alpha LadyBug",
 		PlateHighlight = {255,197,86},--lights
@@ -439,7 +452,7 @@ function mod:init()
 		BodyColor      = {181,183,64},--metal mid
 		BodyHighlight  = {195,199,100},--metal light
 		}
-	modApi:addPalette{--37
+	modApi:addPalette{--38
 		ID = "Nico_boss_ladybug",
 		Name = "Pink Leader LadyBug",
 		PlateHighlight = {255,226,171},--lights
@@ -451,7 +464,7 @@ function mod:init()
 		BodyColor      = {189,53,207},--metal mid
 		BodyHighlight  = {243,94,222},--metal light
 		}
-	modApi:addPalette{--38
+	modApi:addPalette{--39
 		ID = "Nico_nuclear",
 		Name = "Nuclear Green",
 		PlateHighlight = {255,213,65},--lights
@@ -463,7 +476,7 @@ function mod:init()
 		BodyColor      = {74,84,98},--metal mid
 		BodyHighlight  = {139,147,175},--metal light
 	}
-	modApi:addPalette{--39
+	modApi:addPalette{--40
 		ID = "Nico_choco",
 		Name = "Chocolate Colossus",
 		PlateHighlight = {254,243,192},--lights
@@ -475,7 +488,7 @@ function mod:init()
 		BodyColor      = {66,57,52},--metal mid
 		BodyHighlight  = {121,103,85},--metal light
 	}
-	modApi:addPalette{--40
+	modApi:addPalette{--41
 		ID = "Nico_lava",
 		Name = "Magmatic Brobdingnagians",
 		PlateHighlight = {255,213,65},--lights
@@ -487,7 +500,7 @@ function mod:init()
 		BodyColor      = {250,106,10},--metal mid
 		BodyHighlight  = {249,163,27},--metal light
 	}
-	modApi:addPalette{--41
+	modApi:addPalette{--42
 		ID = "Nico_crystal",
 		Name = "Bi or Die",
 		PlateHighlight = {104,174,212},--lights
@@ -499,7 +512,7 @@ function mod:init()
 		BodyColor      = {35,73,117},--metal mid
 		BodyHighlight  = {0,120,153},--metal light
 	}
-	modApi:addPalette{--42
+	modApi:addPalette{--43
 		ID = "Nico_p&o",
 		Name = "Amethist and Copper Golem",
 		PlateHighlight = {215,152,255},--lights
@@ -511,7 +524,7 @@ function mod:init()
 		BodyColor      = {161,78,16},--metal mid
 		BodyHighlight  = {231,165,33},--metal light
 	}
-	modApi:addPalette{--43
+	modApi:addPalette{--44
 		ID = "Nico_b&w",
 		Name = "Sometimes life is just Black & White",
 		PlateHighlight = {100,100,100},--lights
@@ -523,7 +536,7 @@ function mod:init()
 		BodyColor      = {200,200,200},--metal mid
 		BodyHighlight  = {255,255,255},--metal light
 	}
-	modApi:addPalette{--44
+	modApi:addPalette{--45
 		ID = "Nico_forest",
 		Name = "The Walking Scarlet Forest",
 		PlateHighlight = {253,253,253},--lights
@@ -532,10 +545,10 @@ function mod:init()
 		PlateDark      = {125,0,98},--main mid
 		PlateOutline   = {9,8,16},--main dark
 		PlateShadow    = {9,8,16},--metal dark
-		BodyColor      = {32,32,64},--metal mid
+		BodyColor      = {32,32,120},--metal mid
 		BodyHighlight  = {160,0,128},--metal light
 	}
-	modApi:addPalette{--45
+	modApi:addPalette{--46
 		ID = "Nico_inverse",
 		Name = "The Plain Rigids(Negative Rift Walkers)",
 		PlateHighlight = {34,114,115},--lights
@@ -547,7 +560,7 @@ function mod:init()
 		BodyColor      = {121,109,135},--metal mid
 		BodyHighlight  = {188,183,187},--metal light
 	}
-	modApi:addPalette{--46
+	modApi:addPalette{--47
 		ID = "Nico_v1",
 		Name = "Machine Blue",
 		PlateHighlight = {243,189,27},--lights
@@ -559,29 +572,17 @@ function mod:init()
 		BodyColor      = {39,39,39},--metal mid
 		BodyHighlight  = {64,64,64},--metal light
 	}
-	modApi:addPalette{--47
-		ID = "Nico_pink",
-		Name = "Pink Candy",
-		PlateHighlight = {255,251,8},--lights
-		PlateLight     = {251,193,184},--main highlight
-		PlateMid       = {136,126,68},--main light
-		PlateDark      = {238,74,99},--main mid
-		PlateOutline   = {158,75,95},--main dark
-		PlateShadow    = {238,74,99},--metal dark
-		BodyColor      = {237,144,137},--metal mid
-		BodyHighlight  = {242,157,182},--metal light
-	}
 	modApi:addPalette{--48
-	ID = "Nico_king",
-	Name = "The NoWhereKing",
-	PlateHighlight = {159,254,74},--lights
-	PlateLight     = {255,255,255},--main highlight
-	PlateMid       = {219,203,188},--main light
-	PlateDark      = {82,71,43},--main mid
-	PlateOutline   = {131,121,113},--main dark
-	PlateShadow    = {59,59,59},--metal dark
-	BodyColor      = {37,37,37},--metal mid
-	BodyHighlight  = {17,17,17},--metal light
+		ID = "Nico_king",
+		Name = "The NoWhereKing",
+		PlateHighlight = {159,254,74},--lights
+		PlateLight     = {255,255,255},--main highlight
+		PlateMid       = {219,203,188},--main light
+		PlateDark      = {82,71,43},--main mid
+		PlateOutline   = {131,121,113},--main dark
+		PlateShadow    = {59,59,59},--metal dark
+		BodyColor      = {37,37,37},--metal mid
+		BodyHighlight  = {17,17,17},--metal light
 	}
 	modApi:addPalette{--49
 		ID = "Nico_robot",
