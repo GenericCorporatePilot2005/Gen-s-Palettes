@@ -415,7 +415,6 @@ function mod:init()
 		BodyColor      = {144,215,219},--metal mid
 		BodyHighlight  = {246,255,255},--metal light
 	}
-
 	modApi:addPalette{--35
 		ID = "Nico_june",
 		Name = "Junebug",
@@ -427,7 +426,7 @@ function mod:init()
 		PlateShadow    = {121,83,76},--metal dark
 		BodyColor      = {212,161,72},--metal mid
 		BodyHighlight  = {255,246,220},--metal light
-		}
+	}
 	modApi:addPalette{--36
 		ID = "Nico_ladybug",
 		Name = "Red LadyBug",
@@ -439,7 +438,7 @@ function mod:init()
 		PlateShadow    = {82,26,26},--metal dark
 		BodyColor      = {183,64,64},--metal mid
 		BodyHighlight  = {199,102,100},--metal light
-		}
+	}
 	modApi:addPalette{--37
 		ID = "Nico_alpha_ladybug",
 		Name = "Green Alpha LadyBug",
@@ -451,7 +450,7 @@ function mod:init()
 		PlateShadow    = {81,82,26},--metal dark
 		BodyColor      = {181,183,64},--metal mid
 		BodyHighlight  = {195,199,100},--metal light
-		}
+	}
 	modApi:addPalette{--38
 		ID = "Nico_boss_ladybug",
 		Name = "Pink Leader LadyBug",
@@ -463,7 +462,7 @@ function mod:init()
 		PlateShadow    = {56,34,78},--metal dark
 		BodyColor      = {189,53,207},--metal mid
 		BodyHighlight  = {243,94,222},--metal light
-		}
+	}
 	modApi:addPalette{--39
 		ID = "Nico_nuclear",
 		Name = "Nuclear Green",
