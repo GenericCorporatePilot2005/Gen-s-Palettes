@@ -74,7 +74,7 @@ function mod:init()
 		PlateLight     = {177,221,108},--main highlight
 		PlateMid       = {76,130,79},--main light
 		PlateDark      = {49,74,54},--main mid
-		PlateOutline   = {49,74,54},--main dark
+		PlateOutline   = {27,35,25},--main dark
 		PlateShadow    = {49,74,54},--metal dark
 		BodyColor      = {76,130,79},--metal mid
 		BodyHighlight  = {177,221,108},--metal light
@@ -86,7 +86,7 @@ function mod:init()
 		PlateLight     = {110,207,226},--main highlight
 		PlateMid       = {76,86,134},--main light
 		PlateDark      = {49,50,76},--main mid
-		PlateOutline   = {49,50,76},--main dark
+		PlateOutline   = {25,30,36},--main dark
 		PlateShadow    = {49,50,76},--metal dark
 		BodyColor      = {76,86,134},--metal mid
 		BodyHighlight  = {110,207,226},--metal light
@@ -123,18 +123,6 @@ function mod:init()
 		PlateMid       = {76,130,79},--main light
 		PlateDark      = {49,74,54},--main mid
 		PlateOutline   = {23,22,24},--main dark
-		PlateShadow    = {38,34,42},--metal dark
-		BodyColor      = {96,74,74},--metal mid
-		BodyHighlight  = {159,120,89},--metal light
-	}
-	modApi:addPalette{--11
-		ID = "Nico_alpha_bud",
-		Name = "Blue & Brown Bud",
-		PlateHighlight = {174,33,255},--lights
-		PlateLight     = {0,181,214},--main highlight
-		PlateMid       = {0,139,246},--main light
-		PlateDark      = {76,86,134},--main mid
-		PlateOutline   = {27,35,25},--main dark
 		PlateShadow    = {38,34,42},--metal dark
 		BodyColor      = {96,74,74},--metal mid
 		BodyHighlight  = {159,120,89},--metal light
@@ -607,6 +595,18 @@ function mod:init()
 		BodyColor      = {59,220,159},--metal mid
 		BodyHighlight  = {177,250,205},--metal light
 	}
+	modApi:addPalette{--50!
+	ID = "Nico_drone",
+	Name = "Dronemaster",
+	PlateHighlight = {227,165,73},--lights
+	PlateLight     = {90,85,111},--main highlight
+	PlateMid       = {62,59,78},--main light
+	PlateDark      = {48,45,62},--main mid
+	PlateOutline   = {29,28,40},--main dark
+	PlateShadow    = {189,119,56},--metal dark
+	BodyColor      = {199,161,66},--metal mid
+	BodyHighlight  = {250,199,154},--metal light
+}
 end
 
 function mod:load(options, version)
