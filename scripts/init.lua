@@ -116,25 +116,13 @@ function mod:init()
 		BodyHighlight  = {76,130,79},--metal light
 	}
 	modApi:addPalette{--10
-		ID = "Nico_bud",
-		Name = "Green & Brown Bud",
+		ID = "Nico_plant",
+		Name = "Green & Brown Plant",
 		PlateHighlight = {255,199,54},--lights
 		PlateLight     = {177,211,108},--main highlight
 		PlateMid       = {76,130,79},--main light
 		PlateDark      = {49,74,54},--main mid
 		PlateOutline   = {23,22,24},--main dark
-		PlateShadow    = {38,34,42},--metal dark
-		BodyColor      = {96,74,74},--metal mid
-		BodyHighlight  = {159,120,89},--metal light
-	}
-	modApi:addPalette{--12
-		ID = "Nico_boss_bud",
-		Name = "Orange & Brown Bud",
-		PlateHighlight = {51,170,245},--lights
-		PlateLight     = {246,110,0},--main highlight
-		PlateMid       = {214,76,0},--main light
-		PlateDark      = {143,63,74},--main mid
-		PlateOutline   = {25,30,36},--main dark
 		PlateShadow    = {38,34,42},--metal dark
 		BodyColor      = {96,74,74},--metal mid
 		BodyHighlight  = {159,120,89},--metal light
@@ -162,18 +150,6 @@ function mod:init()
 		PlateShadow    = {49,74,54},--metal dark
 		BodyColor      = {76,130,79},--metal mid
 		BodyHighlight  = {177,211,108},--metal light
-	}
-	modApi:addPalette{--15
-		ID = "Nico_alpha_sunflower",
-		Name = "Blue Alpha Sunflower",
-		PlateHighlight = {243,255,134},--lights
-		PlateLight     = {0,181,214},--main highlight
-		PlateMid       = {0,139,246},--main light
-		PlateDark      = {49,50,76},--main mid
-		PlateOutline   = {25,30,36},--main dark
-		PlateShadow    = {49,50,76},--metal dark
-		BodyColor      = {76,86,134},--metal mid
-		BodyHighlight  = {110,207,226},--metal light
 	}
 	modApi:addPalette{--16
 		ID = "Nico_tree",
@@ -583,7 +559,7 @@ function mod:init()
 		BodyColor      = {67,67,51},--metal mid
 		BodyHighlight  = {80,80,62},--metal light
 	}
-	modApi:addPalette{--50!
+	modApi:addPalette{
 		ID = "Nico_zoltan",
 		Name = "Mafan",
 		PlateHighlight = {255,255,255},--lights
@@ -595,18 +571,42 @@ function mod:init()
 		BodyColor      = {59,220,159},--metal mid
 		BodyHighlight  = {177,250,205},--metal light
 	}
+	modApi:addPalette{
+		ID = "Nico_ceo_pinnacle",
+		Name = "Zenith",
+		PlateHighlight = {43,162,143},--lights
+		PlateLight     = {109,255,243},--main highlight
+		PlateMid       = {64,237,227},--main light
+		PlateDark      = {22,66,82},--main mid
+		PlateOutline   = {13,42,53},--main dark
+		PlateShadow    = {4,18,24},--metal dark
+		BodyColor      = {7,27,36},--metal mid
+		BodyHighlight  = {16,49,61},--metal light
+	}
+	modApi:addPalette{
+		ID = "Nico_mantis",
+		Name = "Kazaaakpleth",
+		PlateHighlight = {119,133,48},--lights
+		PlateLight     = {68,129,79},--main highlight
+		PlateMid       = {42,84,50},--main light
+		PlateDark      = {27,54,34},--main mid
+		PlateOutline   = {17,33,21},--main dark
+		PlateShadow    = {39,33,16},--metal dark
+		BodyColor      = {88,64,28},--metal mid
+		BodyHighlight  = {168,150,123},--metal light
+	}
 	modApi:addPalette{--50!
-	ID = "Nico_drone",
-	Name = "Dronemaster",
-	PlateHighlight = {227,165,73},--lights
-	PlateLight     = {90,85,111},--main highlight
-	PlateMid       = {62,59,78},--main light
-	PlateDark      = {48,45,62},--main mid
-	PlateOutline   = {29,28,40},--main dark
-	PlateShadow    = {189,119,56},--metal dark
-	BodyColor      = {199,161,66},--metal mid
-	BodyHighlight  = {250,199,154},--metal light
-}
+		ID = "Nico_drone",
+		Name = "Dronemaster",
+		PlateHighlight = {227,165,73},--lights
+		PlateLight     = {250,199,154},--main highlight
+		PlateMid       = {199,161,66},--main light
+		PlateDark      = {189,119,56},--main mid
+		PlateOutline   = {29,28,40},--main dark
+		PlateShadow    = {48,45,62},--metal dark
+		BodyColor      = {62,59,78},--metal mid
+		BodyHighlight  = {90,85,111},--metal light
+	}
 end
 
 function mod:load(options, version)
