@@ -383,13 +383,13 @@ function mod:init()
 		ID = "Nico_june",
 		Name = "Junebug",
 		PlateHighlight = {255,226,171},--lights
-		PlateLight     = {121,83,76},--main highlight
-		PlateMid       = {47,37,53},--main light
-		PlateDark      = {36,41,65},--main mid
+		PlateLight     = {200,156,88},--main highlight
+		PlateMid       = {121,83,76},--main light
+		PlateDark      = {47,37,53},--main mid
 		PlateOutline   = {12,19,31},--main dark
-		PlateShadow    = {121,83,76},--metal dark
-		BodyColor      = {212,161,72},--metal mid
-		BodyHighlight  = {255,246,220},--metal light
+		PlateShadow    = {5,7,9},--metal dark
+		BodyColor      = {36,41,65},--metal mid
+		BodyHighlight  = {85,88,112},--metal light
 	}
 	modApi:addPalette{--36
 		ID = "Nico_ladybug",
@@ -411,9 +411,9 @@ function mod:init()
 		PlateMid       = {85,88,112},--main light
 		PlateDark      = {36,41,65},--main mid
 		PlateOutline   = {16,15,13},--main dark
-		PlateShadow    = {81,82,26},--metal dark
+		PlateShadow    = {52,53,17},--metal dark
 		BodyColor      = {181,183,64},--metal mid
-		BodyHighlight  = {195,199,100},--metal light
+		BodyHighlight  = {251,253,190},--metal light
 	}
 	modApi:addPalette{--38
 		ID = "Nico_boss_ladybug",
@@ -574,7 +574,7 @@ function mod:init()
 	modApi:addPalette{
 		ID = "Nico_ceo_pinnacle",
 		Name = "Zenith",
-		PlateHighlight = {43,162,143},--lights
+		PlateHighlight = {255,255,255},--lights
 		PlateLight     = {109,255,243},--main highlight
 		PlateMid       = {64,237,227},--main light
 		PlateDark      = {22,66,82},--main mid
@@ -599,13 +599,13 @@ function mod:init()
 		ID = "Nico_drone",
 		Name = "Dronemaster",
 		PlateHighlight = {227,165,73},--lights
-		PlateLight     = {250,199,154},--main highlight
-		PlateMid       = {199,161,66},--main light
-		PlateDark      = {189,119,56},--main mid
+		PlateLight     = {90,85,111},--main highlight
+		PlateMid       = {62,59,78},--main light
+		PlateDark      = {48,45,62},--main mid
 		PlateOutline   = {29,28,40},--main dark
-		PlateShadow    = {48,45,62},--metal dark
-		BodyColor      = {62,59,78},--metal mid
-		BodyHighlight  = {90,85,111},--metal light
+		PlateShadow    = {189,119,56},--metal dark
+		BodyColor      = {199,161,66},--metal mid
+		BodyHighlight  = {250,199,154},--metal light
 	}
 end
 
