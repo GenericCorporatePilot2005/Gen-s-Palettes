@@ -1,7 +1,7 @@
 local mod = {
 	id = "Nico_Palette",
 	name = "Gen's Palette Collection",
-	version = "2.0.0, The '50 colors' update",
+	version = "3.0.0, That's a lotta colors!",
 	requirements = {--[[a taste in color]]},
 	icon = "img/icon.png"
 }
@@ -223,6 +223,42 @@ function mod:init()
 		BodyColor      = {163,221,66},
 		BodyHighlight  = {217,222,154},
 	}
+	modApi:addPalette{--21
+		ID = "Nico_ice",
+		Name = "Icy Light Blue",
+		PlateHighlight = {221,66,104},
+		PlateLight     = {176,207,211},
+		PlateMid       = {109,152,158},
+		PlateDark      = {37,83,90},
+		PlateOutline   = {34,57,60},
+		PlateShadow    = {100,102,80},
+		BodyColor      = {141,163,174},
+		BodyHighlight  = {215,255,210},
+	}
+	modApi:addPalette{
+		ID = "Nico_crystal",
+		Name = "Nautilus Green and Indigo",
+		PlateHighlight = {42,208,177},--lights
+		PlateLight     = {90,116,135},--main highlight
+		PlateMid       = {57,73,86},--main light
+		PlateDark      = {34,38,41},--main mid
+		PlateOutline   = {15,22,16},--main dark
+		PlateShadow    = {39,103,76},--metal dark
+		BodyColor      = {59,113,103},--metal mid
+		BodyHighlight  = {42,208,177},--metal light
+	}
+	modApi:addPalette{
+		ID = "Nico_rock",
+		Name = "Rock & Roll",
+		PlateHighlight = {255,236,147},--lights
+		PlateLight     = {146,147,135},--main highlight
+		PlateMid       = {114,116,105},--main light
+		PlateDark      = {87,90,78},--main mid
+		PlateOutline   = {65,58,54},--main dark
+		PlateShadow    = {129,68,58},--metal dark
+		BodyColor      = {239,148,40},--metal mid
+		BodyHighlight  = {245,196,90},--metal light
+	}
 	modApi:addPalette{--22
 		ID = "Nico_blast",
 		Name = "Blast Orange & Creme",
@@ -342,6 +378,18 @@ function mod:init()
 		PlateShadow    = {175,41,41},--metal dark
 		BodyColor      = {226,71,71},--metal mid
 		BodyHighlight  = {251,189,189},--metal light
+	}
+	modApi:addPalette{--32
+		ID = "Nico_corresive",
+		Name = "Corrosive Dark Green & Lavender",
+		PlateHighlight = {255,197,86},--lights
+		PlateLight     = {139,121,164},--main highlight
+		PlateMid       = {85,88,112},--main light
+		PlateDark      = {36,41,65},--main mid
+		PlateOutline   = {9,22,27},--main dark
+		PlateShadow    = {60,87,89},--metal dark
+		BodyColor      = {79,146,107},--metal mid
+		BodyHighlight  = {206,212,135},--metal light
 	}
 	modApi:addPalette{--32
 		ID = "Nico_reaction",
@@ -464,7 +512,7 @@ function mod:init()
 		BodyHighlight  = {249,163,27},--metal light
 	}
 	modApi:addPalette{--42
-		ID = "Nico_crystal",
+		ID = "Nico_bi",
 		Name = "Bi or Die",
 		PlateHighlight = {104,174,212},--lights
 		PlateLight     = {255,128,164},--main highlight
