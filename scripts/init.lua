@@ -187,18 +187,6 @@ function mod:init()
 		BodyColor      = {93,77,86},--metal mid
 		BodyHighlight  = {150,98,104},--metal light
 	}
-	modApi:addPalette{--19
-		ID = "Nico_vol_Bot",
-		Name = "Boom Bot",
-		PlateHighlight = {255,233,231},--lights
-		PlateLight     = {252,160,81},--main highlight
-		PlateMid       = {146,94,53},--main light
-		PlateDark      = {86,66,48},--main mid
-		PlateOutline   = {255,233,231},--main dark
-		PlateShadow    = {42,42,50},--metal dark
-		BodyColor      = {72,71,92},--metal mid
-		BodyHighlight  = {137,137,162},--metal light
-	}
 	modApi:addPalette{--20
 		ID = "Nico_zombie",
 		Name = "Undead Arachnid",
