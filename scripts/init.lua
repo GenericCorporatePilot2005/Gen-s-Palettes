@@ -547,53 +547,17 @@ function mod:init()
 		BodyColor      = {32,32,120},--metal mid
 		BodyHighlight  = {160,0,128},--metal light
 	}
-	modApi:addPalette{--46
-		ID = "Nico_aqua",
-		Name = "Archimedes",
-		PlateHighlight = {106,232,250},--lights
-		PlateLight     = {254,254,251},--main highlight
-		PlateMid       = {174,173,165},--main light
-		PlateDark      = {103,100,95},--main mid
-		PlateOutline   = {1,4,6},--main dark
-		PlateShadow    = {37,37,33},--metal dark
-		BodyColor      = {66,65,61},--metal mid
-		BodyHighlight  = {254,254,251},--metal light
-	}
-	modApi:addPalette{--47
-		ID = "Nico_miner",
-		Name = "Silica",
-		PlateHighlight = {255,173,70},--lights
-		PlateLight     = {179,183,172},--main highlight
-		PlateMid       = {61,70,53},--main light
-		PlateDark      = {45,50,41},--main mid
-		PlateOutline   = {17,17,19},--main dark
-		PlateShadow    = {31,29,22},--metal dark
-		BodyColor      = {46,43,33},--metal mid
-		BodyHighlight  = {94,94,74},--metal light
-	}
-	modApi:addPalette{--48
-		ID = "Nico_recycler",
-		Name = "Prospero",
-		PlateHighlight = {255,197,186},--lights
-		PlateLight     = {229,177,147},--main highlight
-		PlateMid       = {148,62,13},--main light
-		PlateDark      = {93,38,3},--main mid
-		PlateOutline   = {24,1,1},--main dark
-		PlateShadow    = {61,21,18},--metal dark
-		BodyColor      = {75,26,24},--metal mid
-		BodyHighlight  = {107,36,32},--metal light
-	}
-	modApi:addPalette{--49
-		ID = "Nico_warrior",
-		Name = "Gana",
-		PlateHighlight = {0,0,0},--lights
-		PlateLight     = {255,255,247},--main highlight
-		PlateMid       = {135,125,103},--main light
-		PlateDark      = {54,54,42},--main mid
-		PlateOutline   = {41,23,16},--main dark
-		PlateShadow    = {48,46,37},--metal dark
-		BodyColor      = {67,67,51},--metal mid
-		BodyHighlight  = {80,80,62},--metal light
+	modApi:addPalette{--
+		ID = "Nico_roots",
+		Name = "Old Roots",
+		PlateHighlight = {247,232,8},--lights
+		PlateLight     = {172,255,128},--main highlight
+		PlateMid       = {114,179,83},--main light
+		PlateDark      = {14,100,54},--main mid
+		PlateOutline   = {16,38,1},--main dark
+		PlateShadow    = {98,46,137},--metal dark
+		BodyColor      = {142,74,194},--metal mid
+		BodyHighlight  = {170,120,208},--metal light
 	}
 	modApi:addPalette{
 		ID = "Nico_zoltan",
