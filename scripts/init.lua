@@ -223,7 +223,7 @@ function mod:init()
 		BodyColor      = {141,163,174},
 		BodyHighlight  = {215,255,210},
 	}
-	modApi:addPalette{
+	--[[modApi:addPalette{
 		ID = "Nico_crystal",
 		Name = "Nautilus Green and Indigo",
 		PlateHighlight = {42,208,177},--lights
@@ -234,19 +234,7 @@ function mod:init()
 		PlateShadow    = {39,103,76},--metal dark
 		BodyColor      = {59,113,103},--metal mid
 		BodyHighlight  = {42,208,177},--metal light
-	}
-	modApi:addPalette{
-		ID = "Nico_rock",
-		Name = "Rock & Roll",
-		PlateHighlight = {255,236,147},--lights
-		PlateLight     = {146,147,135},--main highlight
-		PlateMid       = {114,116,105},--main light
-		PlateDark      = {87,90,78},--main mid
-		PlateOutline   = {65,58,54},--main dark
-		PlateShadow    = {129,68,58},--metal dark
-		BodyColor      = {239,148,40},--metal mid
-		BodyHighlight  = {245,196,90},--metal light
-	}
+	}]]
 	modApi:addPalette{--22
 		ID = "Nico_blast",
 		Name = "Blast Orange & Creme",
