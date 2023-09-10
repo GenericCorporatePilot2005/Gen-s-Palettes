@@ -584,8 +584,20 @@ function mod:init()
 		PlateShadow    = {9,8,16},--metal dark
 	}
 	modApi:addPalette{--
-		ID = "Nico_roots",
+		ID = "Nico_roots1",
 		Name = "Old Roots",
+		PlateHighlight = {220, 115, 0},--lights
+		PlateLight     = {172, 255, 128},--main highlight
+		PlateMid       = {114, 179, 83},--main light
+		PlateDark      = {4, 98, 53},--main mid
+		PlateOutline   = {16, 38, 1},--main dark
+		BodyHighlight  = {250, 180, 150},--metal light
+		BodyColor      = {194, 74, 142},--metal mid
+		PlateShadow    = {137, 46, 98},--metal dark
+	}
+	modApi:addPalette{--
+		ID = "Nico_roots2",
+		Name = "Even Older Roots",
 		PlateHighlight = {247,232,8},--lights
 		PlateLight     = {172,255,128},--main highlight
 		PlateMid       = {114,179,83},--main light
