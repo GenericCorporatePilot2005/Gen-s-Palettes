@@ -94,14 +94,14 @@ function mod:init()
 	modApi:addPalette{--8
 		ID = "Nico_boss_chomper",
 		Name = "Endless Crimson Hunger",
-		PlateHighlight = {51,170,245},--lights
+		PlateHighlight = {243,255,134},--lights
 		PlateLight     = {249,81,91},--main highlight
 		PlateMid       = {147,63,69},--main light
 		PlateDark      = {77,42,41},--main mid
 		PlateOutline   = {27,35,25},--main dark
-		BodyHighlight  = {243,255,134},--metal light
-		BodyColor      = {210,114,36},--metal mid
-		PlateShadow    = {183,85,31},--metal dark
+		BodyHighlight  = {210,114,36},--metal light
+		BodyColor      = {183,85,31},--metal mid
+		PlateShadow    = {8,16,16},--metal dark
 	}
 	modApi:addPalette{--9
 		ID = "Nico_beanstalker",
@@ -415,6 +415,54 @@ function mod:init()
 		BodyColor      = {144,215,219},--metal mid
 		PlateShadow    = {71,163,157},--metal dark
 	}
+	modApi:addPalette{
+		ID = "Nico_candy1",
+		Name = "Jujuba Red",
+		PlateHighlight = {145,255,253},--lights
+		PlateLight     = {243,208,196},--main highlight
+		PlateMid       = {181,124,110},--main light
+		PlateDark      = {82,44,34},--main mid
+		PlateOutline   = {89,11,11},--main dark
+		BodyHighlight  = {237,129,129},--metal light
+		BodyColor      = {189,45,55},--metal mid
+		PlateShadow    = {148,19,29},--metal dark
+	}
+	modApi:addPalette{
+		ID = "Nico_candy2",
+		Name = "Jujuba Green",
+		PlateHighlight = {145,255,253},--lights
+		PlateLight     = {243,208,196},--main highlight
+		PlateMid       = {181,124,110},--main light
+		PlateDark      = {82,44,34},--main mid
+		PlateOutline   = {44,84,23},--main dark
+		BodyHighlight  = {147,237,129},--metal light
+		BodyColor      = {79,189,45},--metal mid
+		PlateShadow    = {51,148,19},--metal dark
+	}
+	modApi:addPalette{
+		ID = "Nico_candy3",
+		Name = "Jujuba Yellow",
+		PlateHighlight = {145,255,253},--lights
+		PlateLight     = {243,208,196},--main highlight
+		PlateMid       = {181,124,110},--main light
+		PlateDark      = {82,44,34},--main mid
+		PlateOutline   = {107,84,14},--main dark
+		BodyHighlight  = {237,219,129},--metal light
+		BodyColor      = {189,155,45},--metal mid
+		PlateShadow    = {148,116,19},--metal dark
+	}
+	modApi:addPalette{
+		ID = "Nico_candy4",
+		Name = "Jujuba Purple",
+		PlateHighlight = {145,255,253},--lights
+		PlateLight     = {243,208,196},--main highlight
+		PlateMid       = {181,124,110},--main light
+		PlateDark      = {82,44,34},--main mid
+		PlateOutline   = {75,15,116},--main dark
+		BodyHighlight  = {201,129,237},--metal light
+		BodyColor      = {131,45,189},--metal mid
+		PlateShadow    = {95,19,148},--metal dark
+	}
 	modApi:addPalette{--35
 		ID = "Nico_june",
 		Name = "Junebug",
@@ -547,6 +595,18 @@ function mod:init()
 		BodyColor      = {149,77,77},--metal mid
 		PlateShadow    = {77,52,52},--metal dark
 	}
+	modApi:addPalette{--43
+		ID = "Nico_TITLESCREEN",
+		Name = "Title Screen",
+		PlateHighlight = {255,255,255},--lights
+		PlateLight     = {192,165,143},--main highlight
+		PlateMid       = {50,39,61},--main light
+		PlateDark      = {19,13,28},--main mid
+		PlateOutline   = {0,0,0},--main dark
+		BodyHighlight  = {111,98,111},--metal light
+		BodyColor      = {91,90,132},--metal mid
+		PlateShadow    = {49,38,75},--metal dark
+	}
 	modApi:addPalette{--44
 		ID = "Nico_shield",
 		Name = "Shield Light Blue and Pink",
@@ -560,16 +620,52 @@ function mod:init()
 		PlateShadow    = {67,44,113},--metal dark
 	}
 	modApi:addPalette{--44
-		ID = "Nico_v1",
+		ID = "Nico_V1",
 		Name = "Machine Blue",
 		PlateHighlight = {243,189,27},--lights
 		PlateLight     = {102,136,194},--main highlight
 		PlateMid       = {58,82,129},--main light
 		PlateDark      = {49,71,114},--main mid
-		PlateOutline   = {0,0,0},--main dark
-		BodyHighlight  = {64,64,64},--metal light
-		BodyColor      = {39,39,39},--metal mid
-		PlateShadow    = {16,16,16},--metal dark
+		PlateOutline   = {28,45,76},--main dark
+		BodyHighlight  = {149,149,158},--metal light
+		BodyColor      = {64,64,64},--metal mid
+		PlateShadow    = {39,39,39},--metal dark
+	}
+	modApi:addPalette{--44
+		ID = "Nico_V2",
+		Name = "Machine Red",
+		PlateHighlight = {243,189,27},--lights
+		PlateLight     = {206,50,50},--main highlight
+		PlateMid       = {113,15,15},--main light
+		PlateDark      = {68,15,15},--main mid
+		PlateOutline   = {50,8,8},--main dark
+		BodyHighlight  = {149,149,158},--metal light
+		BodyColor      = {64,64,64},--metal mid
+		PlateShadow    = {39,39,39},--metal dark
+	}
+	modApi:addPalette{
+		ID = "Nico_Fritalia?",
+		Name = "Strawberries & Cream",
+		PlateHighlight = {167,190,174},--lights
+		PlateLight     = {230,232,210},--main highlight
+		PlateMid       = {170,172,149},--main light
+		PlateDark      = {120,121,104},--main mid
+		PlateOutline   = {79,35,30},--main dark
+		BodyHighlight  = {227,100,84},--metal light
+		BodyColor      = {184,80,67},--metal mid
+		PlateShadow    = {125,56,46},--metal dark
+	}
+	modApi:addPalette{
+		ID = "Nico_GG",
+		Name = "Glitched Gold",
+		PlateHighlight = {72,255,153},--lights
+		PlateLight     = {221,188,78},--main highlight
+		PlateMid       = {140,102,65},--main light
+		PlateDark      = {82,56,35},--main mid
+		PlateOutline   = {36,27,17},--main dark
+		BodyHighlight  = {181,196,187},--metal light
+		BodyColor      = {103,106,105},--metal mid
+		PlateShadow    = {48,50,48},--metal dark
 	}
 	modApi:addPalette{--45
 		ID = "Nico_forest",
